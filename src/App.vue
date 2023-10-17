@@ -1,22 +1,10 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import HeaderBar from '@/infrastructure/viewLayer/components/HeaderBar.vue'
 </script>
 
 <template>
-  <header>
-    <h1>
-    </h1>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/storyboard">Storyboard</RouterLink>
-        <RouterLink to="/animation">Animation</RouterLink>
-        <RouterLink to="/illustration">Illustration</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+  <HeaderBar />
   <RouterView />
 </template>
 
