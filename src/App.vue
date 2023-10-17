@@ -9,6 +9,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/storyboard">Storyboard</RouterLink>
+        <RouterLink to="/animation">Animation</RouterLink>
+        <RouterLink to="/illustration">Illustration</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
@@ -18,5 +21,5 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style lang="scss" scoped>
-@import '@/viewLayer/styles/global';
+@import '@/infrastructure/viewLayer/styles/global';
 </style>
