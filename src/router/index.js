@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../infrastructure/viewLayer/views/HomeView.vue'
 
-const viewRoute = 'infrastructure/viewLayer/views/'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -13,22 +12,22 @@ const router = createRouter({
     {
       path: '/storyboard',
       name: 'storyboard',
-      component: () => import('../' + viewRoute + 'StoryboardView.vue')
+      component: () => import(`../infrastructure/viewLayer/views/StoryboardView.vue`)
     },
     {
       path: '/animation',
       name: 'animation',
-      component: () => import('../' + viewRoute + 'AnimationView.vue')
+      component: () => import(`../infrastructure/viewLayer/views/AnimationView.vue`)
     },
     {
       path: '/illustration',
       name: 'illustration',
-      component: () => import('../' + viewRoute + 'IllustrationView.vue')
+      component: () => import(`../infrastructure/viewLayer/views/IllustrationView.vue`)
     },
     {
       path: '/about',
       name: 'about',
-      component: () => import('../' + viewRoute + 'AboutView.vue')
+      component: () => import(`../infrastructure/viewLayer/views/AboutView.vue`)
     }
   ]
 })
