@@ -8,6 +8,6 @@ import HeaderBar from '@/infrastructure/viewLayer/components/HeaderBar.vue'
   <RouterView />
 </template>
 
-<style lang="scss" scoped>
-@import '@/infrastructure/viewLayer/styles/global';
+<style lang="scss">
+@import '@/infrastructure/viewLayer/styles/main';
 </style>
