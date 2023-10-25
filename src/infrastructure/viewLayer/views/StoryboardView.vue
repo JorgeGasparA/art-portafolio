@@ -1,3 +1,3 @@
 <template>
-  <h1>Storyboard Page</h1>
+  <h4>Storyboard Page</h4>
 </template>

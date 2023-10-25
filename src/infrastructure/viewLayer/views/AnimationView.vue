@@ -1,3 +1,3 @@
 <template>
-  <h1>Animation Page</h1>
+  <h4>Animation Page</h4>
 </template>
